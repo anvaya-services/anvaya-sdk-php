@@ -1,0 +1,22 @@
+{
+  "name": "anvaya/anvaya-sdk-php",
+  "description": "Anvaya provides a PHP SDK that wraps the Anvaya REST APIs",
+  "type": "library",
+  "license": "proprietary",
+  "version": "1.1.0",
+  "minimum-stability": "dev",
+
+  "autoload": {
+    "psr-4": {
+      "Anvaya\\": "src/Anvaya"
+    },
+    "files": ["src/Anvaya/functions.php"]
+  },
+
+  "require": {
+    "guzzlehttp/guzzle": "6.5.2",
+    "php": ">=5.5.0",
+    "ext-simplexml": "*",
+    "ext-curl": "^7.3"
+  }
+}

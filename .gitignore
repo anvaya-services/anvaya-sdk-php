@@ -1,0 +1,6 @@
+composer.lock
+samples/
+vendor/
+mock_data/
+var/
+.idea/
